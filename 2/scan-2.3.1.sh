@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euxo pippefail
+set -euxo pipefail
 
 SERVERS=(
 	192.168.166.31
