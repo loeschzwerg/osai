@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euxo pippefail
+
 SERVERS=(
 	192.168.166.31
 	http://192.168.166.32:9000

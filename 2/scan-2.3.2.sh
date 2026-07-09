@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euxo pipefail
+
 HOSTNAME="${HOSTNAME:-192.168.50.23}"
 ENDPOINT="${ENDPOINT:-http://$HOSTNAME/v1/chat/completions}"
 HEADERS=(
