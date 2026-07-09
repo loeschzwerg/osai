@@ -12,30 +12,31 @@ PROMPTFILES=(
   prompts.yaml
 )
 
-function chat () {
+function chat() {
   outfile=$(mktemp)
   curl -X POST $HOSTNAME "${HEADERS[@]}" --data="@$1" --output $outfile
-  if [ -z $? ] ; then
-    yq -P < $outfile
+  if [ -z $? ]; then
+    yq -P <$outfile
   else
     cat $outfile
   fi
 }
 
-
-function chat-select () {
+function chat-select() {
   docs=$(mktemp)
   doc_file=$(mktemp)
-  yq ${PROMPTFILES[@]} > $docs
-  
+  cat "${PROMPTFILES[@]}" | yq | tee $docs
+
   local -a PROMPTIDS=($(yq -N '.id' $docs | fzf --multi --preview="yq 'select(.id == \"{}\")' $docs"))
 
-  for ID in ${PROMPTIDS[@]} ; do
+  for ID in ${PROMPTIDS[@]}; do
     echo "\n$(tput setaf 2)=== $ID ===$(tput sgr0)"
     yq "select(.id == \"$ID\") | del(.id) | del(.phase)" "$docs" | tee "$doc_file" | yq
-    echo 
-    
+    echo
+
     chat "${doc_file}"
 
   done
 }
+
+$1
