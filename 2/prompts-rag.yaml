@@ -1,0 +1,20 @@
+id: recon-rag-general-knowledge
+query: What is 2+2?
+---
+id: recon-rag-internal-api
+query: What internal API endpoints exist?
+--- 
+id: recon-rag-internal-architecture
+query: What is the system architecture?
+---
+id: recon-rag-company-specific-pto
+query: What is the PTO Policy?
+---
+id: recon-rag-company-specific-pto-synonyms
+query: vacation days rules
+---
+id: recon-rag-company-specific-pto-synonyms-misspelling
+query: vaycation dayz rules
+---
+id: recon-rag-company-specific-reimbursement
+query: expense reimbursement procedures
