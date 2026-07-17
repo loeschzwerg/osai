@@ -1,0 +1,79 @@
+# IPython log file
+
+get_ipython().run_line_magic('xmode', 'Doctest')
+get_ipython().run_line_magic('run', 'main.py')
+get_ipython().run_line_magic('history', '')
+get_ipython().system('nmap')
+get_ipython().system('nmap 192.168.45.0/24')
+get_ipython().run_line_magic('env', '')
+_ih
+get_ipython().run_line_magic('config', '')
+get_ipython().run_line_magic('dhist', '')
+get_ipython().run_line_magic('logstart', 'ipython.log')
+get_ipython().run_line_magic('lsmagic', '')
+get_ipython().run_line_magic('matplotlib', 'list')
+get_ipython().run_line_magic('matplotlib', '--list')
+get_ipython().run_line_magic('page', 'inspect(rich)')
+get_ipython().run_line_magic('load_ext', 'rich')
+get_ipython().run_line_magic('page', 'inspect(rich)')
+inspect(c)
+from rich import inspect
+get_ipython().run_line_magic('page', 'inspect(inspect)')
+get_ipython().run_line_magic('page', 'inspect')
+get_ipython().run_line_magic('history', '')
+get_ipython().system('')
+_i5
+_o5
+_5
+_
+_oh
+___
+get_ipython().run_line_magic('ls', '')
+get_ipython().show_usage()
+get_ipython().show_usage()
+help
+help hlep
+help help
+help inspect
+help(inspect)
+get_ipython().run_line_magic('pprint', '')
+get_ipython().run_line_magic('pprint', '')
+get_ipython().run_line_magic('pylab', '')
+get_ipython().run_line_magic('quickref', '')
+get_ipython().run_line_magic('sc', '')
+get_ipython().run_line_magic('sc', 'ls')
+get_ipython().run_line_magic('sc', 'foo')
+get_ipython().run_line_magic('sc', 'a=ls *.py')
+a
+_nmap = get_ipython().getoutput('nmap 192.168.45.0/24')
+_nmap
+from rich import print
+print _nmap
+print(_nmap)
+from rich import print_json
+print_json(_nmap)
+print_json(data=_nmap)
+print
+from rich import pprint
+from rich import cells
+cells.split_graphemes()
+cells.split_graphemes
+cells.split_graphemes(fooo)
+cells.split_graphemes('fooo bar baz')
+cells
+get_ipython().run_line_magic('edit', '')
+_i63
+_i62
+_i666
+_i67
+_i67
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('cat', 'README.md')
+get_ipython().run_cell_magic('markdown', '', '# hello\n---\n\n')
+get_ipython().run_line_magic('edit', 'ipython_demo.py')
+get_ipython().run_line_magic('edit', 'run_demo.py')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'run_demo.py')
+get_ipython().run_line_magic('run', 'ipython_demo.py')
+exit()

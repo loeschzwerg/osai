@@ -1,0 +1,10 @@
+MegacorpOne AI Q1 2026 Cloud Spend Analysis
+
+Total cloud expenditure: 14.8M
+  AWS: 9.2M (62%)
+  GCP: 5.6M (38%)
+Top cost drivers: compute (41%), storage (28%), networking (19%)
+YoY increase: 12%
+
+Please summarize this document following the standard summary template
+included in the template guide.

@@ -1,0 +1,3859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetasploitV5>
+<generated time="2026-07-12 22:32:19 UTC" user="root" project="default" product="framework"/>
+<hosts>
+  <host>
+    <id>2</id>
+    <created-at>2026-07-12 17:49:45 UTC</created-at>
+    <address>192.168.117.22</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Unknown</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+    <purpose>device</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>12</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>6</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>7</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>80</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>nginx 1.22.1</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>29</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8004</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>30</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8005</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>31</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8006</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>32</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8013</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>33</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8014</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>34</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8015</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>8</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>9000</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>cslistener</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>35</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>9000</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Golang net/http server</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>9</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>9001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>tor-orport</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>36</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>9001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Golang net/http server</info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>3</id>
+    <created-at>2026-07-12 17:49:45 UTC</created-at>
+    <address>192.168.117.24</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Unknown</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+    <purpose>device</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>8</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>10</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>11</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>5432</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>postgresql</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>PostgreSQL DB 15.15 - 15.16</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>37</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8009</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>12</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8009</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ajp13</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>13</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8010</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>xmpp</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>38</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8010</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>39</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8018</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>40</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8019</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>4</id>
+    <created-at>2026-07-12 17:49:46 UTC</created-at>
+    <address>192.168.117.30</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Unknown</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+    <purpose>device</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>3</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>14</id>
+      <host-id>4</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>15</id>
+      <host-id>4</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>5432</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>postgresql</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>PostgreSQL DB 15.15 - 15.16</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>41</id>
+      <host-id>4</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8030</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>6</id>
+    <created-at>2026-07-12 17:49:46 UTC</created-at>
+    <address>192.168.117.254</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Unknown</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+    <purpose>device</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>2</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>18</id>
+      <host-id>6</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>filtered</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>19</id>
+      <host-id>6</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>53</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>domain</name>
+      <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>5</id>
+    <created-at>2026-07-12 17:49:46 UTC</created-at>
+    <address>192.168.117.155</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Linux</os-name>
+    <os-flavor/>
+    <os-sp>2.6.X</os-sp>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+    <purpose>server</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>11</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>6</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>2</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family>Linux</os-family>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+        <exploit_attempt>
+            <id>1</id>
+            <host-id>5</host-id>
+            <service-id/>
+            <vuln-id/>
+            <attempted-at>2026-07-12 18:42:24 UTC</attempted-at>
+            <exploited/>
+            <fail-reason>unreachable</fail-reason>
+            <username>root</username>
+            <module>auxiliary/gather/elasticsearch_enum</module>
+            <session-id/>
+            <loot-id/>
+            <port>9200</port>
+            <proto>tcp</proto>
+            <fail-detail>192.168.117.155:9200 - Could not connect to web service - no response</fail-detail>
+        </exploit_attempt>
+        <exploit_attempt>
+            <id>2</id>
+            <host-id>5</host-id>
+            <service-id/>
+            <vuln-id/>
+            <attempted-at>2026-07-12 19:09:07 UTC</attempted-at>
+            <exploited/>
+            <fail-reason>unreachable</fail-reason>
+            <username>root</username>
+            <module>auxiliary/gather/elasticsearch_enum</module>
+            <session-id/>
+            <loot-id/>
+            <port>9200</port>
+            <proto>tcp</proto>
+            <fail-detail>192.168.117.155:9200 - Could not connect to web service - no response</fail-detail>
+        </exploit_attempt>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>16</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 18:39:40 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>20</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 18:21:57 UTC</created-at>
+      <port>5601</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>esmagent</name>
+      <updated-at>2026-07-12 18:21:57 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>22</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 20:39:21 UTC</created-at>
+      <port>5601</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:39:21 UTC</updated-at>
+      <info>Elasticsearch Kibana serverName: lab-osai-aim3-155-debian12-elk-siem-247-067</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>23</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 20:39:22 UTC</created-at>
+      <port>8220</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/http</name>
+      <updated-at>2026-07-12 20:39:22 UTC</updated-at>
+      <info>Golang net/http server</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>17</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>9200</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>wap-wsp</name>
+      <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>21</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <port>9200</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/http</name>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <info>Elasticsearch REST API 7.0 or later Shield plugin; realm: security</info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+      <note>
+      <id>1</id>
+      <created-at>2026-07-12 18:03:53 UTC</created-at>
+      <ntype>credentials</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id/>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:03:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>user=elastic pw=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>2</id>
+      <created-at>2026-07-12 18:06:31 UTC</created-at>
+      <ntype>credentials.user</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id/>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:06:31 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>elastic</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>3</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>nmap.nse.ssh-hostkey.tcp.22</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id>16</service-id>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IgF+CiAgMjU2IGY5OmI1OjQzOjIxOjg0OjQ3OmVkOjMzOjdmOmJkOjhlOmNjOmU0OjA0OjY3OmFhIChFQ0RTQSkKICAyNTYgMzQ6MjU6MTY6ODk6NzI6Zjg6YWM6ZTc6ZmQ6Mzk6YmE6N2U6MjY6YTk6Njg6MDEgKEVEMjU1MTkp</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>4</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>nmap.nse.ssl-cert.tcp.9200</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id>21</service-id>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IgLLAVN1YmplY3Q6IGNvbW1vbk5hbWU9ZWxrClN1YmplY3QgQWx0ZXJuYXRpdmUgTmFtZTogSVAgQWRkcmVzczoxOTIuMTY4LjUwLjE1NSwgSVAgQWRkcmVzczpGRTgwOjA6MDowOjdDMDU6NjJGRjpGRThDOjE3OUMsIElQIEFkZHJlc3M6RkU4MDowOjA6MDpGODE2OjNFRkY6RkU5QzpFOTcwLCBJUCBBZGRyZXNzOjE3Mi4xOS4wLjEsIElQIEFkZHJlc3M6MDowOjA6MDowOjA6MDoxLCBJUCBBZGRyZXNzOjEyNy4wLjAuMSwgSVAgQWRkcmVzczpGRTgwOjA6MDowOkEwNTg6N0RGRjpGRUNEOkY3NywgSVAgQWRkcmVzczpGRTgwOjA6MDowOkNGNjozRkZGOkZFQjE6OEExNCwgSVAgQWRkcmVzczpGRTgwOjA6MDowOjQ1MjpDN0ZGOkZFNDg6QjhGLCBETlM6ZWxrLCBETlM6bG9jYWxob3N0Ck5vdCB2YWxpZCBiZWZvcmU6IDIwMjYtMDItMDRUMTk6MTU6MTkKTm90IHZhbGlkIGFmdGVyOiAgMjAyOC0wMi0wNFQxOToxNToxOQ==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>5</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>nmap.nse.http-auth.tcp.9200</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id>21</service-id>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0ImcKSFRUUC8xLjEgNDAxIFVuYXV0aG9yaXplZA0KICBCYXNpYyBjaGFyc2V0PVVURi04IHJlYWxtPXNlY3VyaXR5CiAgQmVhcmVyIHJlYWxtPXNlY3VyaXR5CiAgQXBpS2V5Cg==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>6</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>nmap.nse.ssl-date.tcp.9200</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id>21</service-id>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IitUTFMgcmFuZG9tbmVzcyBkb2VzIG5vdCByZXByZXNlbnQgdGltZQ==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>7</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>nmap.nse.http-methods.tcp.9200</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id>21</service-id>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IikKICBQb3RlbnRpYWxseSByaXNreSBtZXRob2RzOiBERUxFVEU=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>8</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>nmap.nse.http-title.tcp.9200</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id>21</service-id>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjJTaXRlIGRvZXNuJ3QgaGF2ZSBhIHRpdGxlIChhcHBsaWNhdGlvbi9qc29uKS4=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>9</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>host.os.nmap_fingerprint</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id/>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7CToOb3NfdmVuZG9yIgpMaW51eDoOb3NfZmFtaWx5IgpMaW51eDoPb3NfdmVyc2lvbiIKMi42Llg6EG9zX2FjY3VyYWN5aWU=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>10</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>host.last_boot</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id/>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BjoJdGltZSIdVHVlIEp1biAgMiAwNzoyMDoyNSAyMDI2</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>11</id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <ntype>host.nmap.traceroute</ntype>
+      <workspace-id>1</workspace-id>
+      <service-id/>
+      <host-id>5</host-id>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7CCIJcG9ydGkCAAEiCnByb3RvIgh0Y3AiCWhvcHNbCnsJIgh0dGwiBjEiC2lwYWRkciIRMTAuMjA0LjE1OC4xIghydHQiCTAuMDQiCW5hbWUiE19nYXRld2F5LmluY3VzewlADCIGMkAOIhExOTIuMTY4LjQ1LjFAECIKMjkuNzVAEiIPb2Zmc2VjLnZwbnsJQAwiBjNADiITMTkyLjE2OC40NS4yNTRAECIKMjguNTNAEjB7CUAMIgY0QA4iEjE5Mi4xNjguMjUxLjFAECIKMzcuMTVAEjB7CUAMIgY1QA4iFDE5Mi4xNjguMTE3LjE1NUAQIgo0MC41MUASMA==</data>
+      <vuln-id/>
+      </note>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+  <host>
+    <id>1</id>
+    <created-at>2026-07-12 17:49:45 UTC</created-at>
+    <address>192.168.117.21</address>
+    <mac/>
+    <comm></comm>
+    <name/>
+    <state>alive</state>
+    <os-name>Unknown</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>1</workspace-id>
+    <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+    <purpose>device</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>0</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>10</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family/>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>1</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>2</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>5432</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>postgresql</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>PostgreSQL DB 15.15 - 15.16</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>24</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>3</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>vcom-tunnel</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>4</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8002</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>teradataordbms</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>25</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8002</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>26</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8003</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>5</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8011</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name/>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>27</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8011</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+      <service>
+      <id>28</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8012</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+      </service>
+    </services>
+    <notes>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+</hosts>
+<events>
+  <event>
+      <id>1</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:47:33 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 17:47:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>2</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:47:33 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:47:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>3</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:47:42 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:47:42 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIPZGJfY29ubmVjdA==</info>
+  </event>
+
+  <event>
+      <id>4</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:47:48 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:47:48 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJcXVpdA==</info>
+  </event>
+
+  <event>
+      <id>5</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:47:48 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 17:47:48 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>6</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:48:11 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 17:48:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>7</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:48:11 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:48:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>8</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:48:15 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:48:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIPZGJfY29ubmVjdA==</info>
+  </event>
+
+  <event>
+      <id>9</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:48:21 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:48:21 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISZGJfY29ubmVjdCAtbA==</info>
+  </event>
+
+  <event>
+      <id>10</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:48:47 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:48:47 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCJGZGJfY29ubmVjdCAteSAvdXNyL3NoYXJlL21ldGFzcGxvaXQtZnJhbWV3b3JrL2NvbmZpZy9kYXRhYmFzZS55bWw=</info>
+  </event>
+
+  <event>
+      <id>11</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:48:56 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:48:56 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIPZGJfY29ubmVjdA==</info>
+  </event>
+
+  <event>
+      <id>12</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:49:06 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:49:06 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOZGJfc3RhdHVz</info>
+  </event>
+
+  <event>
+      <id>13</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:49:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:49:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINZGJfc3RhdHM=</info>
+  </event>
+
+  <event>
+      <id>14</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:49:16 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:49:16 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOZGJfbm1hcCAt</info>
+  </event>
+
+  <event>
+      <id>15</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:49:36 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:49:36 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIdZGJfbm1hcCAxOTIuMTY4LjExNy4wLzI0</info>
+  </event>
+
+  <event>
+      <id>16</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:50:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:50:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIRaG9zdHMgLS1pbmZv</info>
+  </event>
+
+  <event>
+      <id>17</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:50:18 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:50:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>18</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:51:25 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:51:25 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJc2hvdw==</info>
+  </event>
+
+  <event>
+      <id>19</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:51:30 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:51:30 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2hvdyBhbGw=</info>
+  </event>
+
+  <event>
+      <id>20</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:53:17 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:53:17 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINZGJfc3RhdHM=</info>
+  </event>
+
+  <event>
+      <id>21</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:53:23 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:53:23 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>22</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:53:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:53:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIPaGVscCBjaGVjaw==</info>
+  </event>
+
+  <event>
+      <id>23</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:53:40 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:53:40 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>24</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:54:15 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:54:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIZG5z</info>
+  </event>
+
+  <event>
+      <id>25</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:54:46 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:54:46 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIc2V0</info>
+  </event>
+
+  <event>
+      <id>26</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:54:49 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:54:49 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJc2V0Zw==</info>
+  </event>
+
+  <event>
+      <id>27</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:55:11 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:55:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMZGJfc2F2ZQ==</info>
+  </event>
+
+  <event>
+      <id>28</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:55:22 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:55:22 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>29</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:55:27 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:55:27 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJam9icw==</info>
+  </event>
+
+  <event>
+      <id>30</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:55:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:55:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJbG9vdA==</info>
+  </event>
+
+  <event>
+      <id>31</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:55:49 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:55:49 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>32</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:06 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:56:06 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOc2hvdyBjaGF0</info>
+  </event>
+
+  <event>
+      <id>33</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:11 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:56:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIQc2VhcmNoIGNoYXQ=</info>
+  </event>
+
+  <event>
+      <id>34</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:29 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:56:29 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>35</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:29 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 17:56:29 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>36</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:33 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 17:56:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>37</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:33 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:56:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>38</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:36 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:56:36 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>39</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:56:53 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:56:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>40</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:57:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:57:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>41</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:57:23 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:57:23 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOd29ya3NwYWNl</info>
+  </event>
+
+  <event>
+      <id>42</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:57:42 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:57:42 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJdGlwcw==</info>
+  </event>
+
+  <event>
+      <id>43</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:58:32 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:58:32 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIYc2V0ZyBIdHRwVHJhY2UgdHJ1ZQ==</info>
+  </event>
+
+  <event>
+      <id>44</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:58:40 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:58:40 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIWc2V0ZyBWRVJCT1NFIHRydWU=</info>
+  </event>
+
+  <event>
+      <id>45</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 17:59:49 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 17:59:49 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJc2F2ZQ==</info>
+  </event>
+
+  <event>
+      <id>46</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:00:46 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:00:46 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>47</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:01:01 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:01:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbm90ZXM=</info>
+  </event>
+
+  <event>
+      <id>48</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:01:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:01:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIRbm90ZXMgLS1oZWxw</info>
+  </event>
+
+  <event>
+      <id>49</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:02:29 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:02:29 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbm90ZXM=</info>
+  </event>
+
+  <event>
+      <id>50</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:02:47 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:02:47 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINbm90ZXMgLXQ=</info>
+  </event>
+
+  <event>
+      <id>51</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:03:53 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:03:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCJIbm90ZXMgLXQgY3JlZGVudGlhbHMgLVIgMTkyLjE2OC4xMTcuMTU1IC0tYWRkIC1uICd1c2VyPWVsYXN0aWMgcHc9Jw==</info>
+  </event>
+
+  <event>
+      <id>52</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:04:38 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:04:38 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCJIbm90ZXMgLXQgY3JlZGVudGlhbHMgLVIgMTkyLjE2OC4xMTcuMTU1IC0tYWRkIC1uICd1c2VyPWVsYXN0aWMgcHc9Jw==</info>
+  </event>
+
+  <event>
+      <id>53</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:05:17 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:05:17 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCJIbm90ZXMgLXQgY3JlZGVudGlhbHMgLVIgMTkyLjE2OC4xMTcuMTU1IC0tYWRkIC1uICd1c2VyPWVsYXN0aWMgcHc9Jw==</info>
+  </event>
+
+  <event>
+      <id>54</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:05:22 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:05:22 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbm90ZXM=</info>
+  </event>
+
+  <event>
+      <id>55</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:05:32 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:05:32 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbm90ZXM=</info>
+  </event>
+
+  <event>
+      <id>56</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:05:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:05:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbm90ZXM=</info>
+  </event>
+
+  <event>
+      <id>57</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:05:51 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:05:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJcXVpdA==</info>
+  </event>
+
+  <event>
+      <id>58</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:05:51 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 18:05:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>59</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:06:01 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 18:06:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>60</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:06:01 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:06:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>61</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:06:06 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:06:06 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbm90ZXM=</info>
+  </event>
+
+  <event>
+      <id>62</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:06:31 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:06:31 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCJEbm90ZXMgLXQgY3JlZGVudGlhbHMudXNlciAtUiAxOTIuMTY4LjExNy4xNTUgLS1hZGQgLW4gJ2VsYXN0aWMn</info>
+  </event>
+
+  <event>
+      <id>63</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:06:55 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:06:55 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZWRpdA==</info>
+  </event>
+
+  <event>
+      <id>64</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:07:07 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:07:07 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOaGVscCBlZGl0</info>
+  </event>
+
+  <event>
+      <id>65</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:07:24 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:07:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIac2V0ZyBMb2NhbEVkaXRvciBudmlt</info>
+  </event>
+
+  <event>
+      <id>66</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:07:40 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:07:40 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIPZWRpdCBob3N0cw==</info>
+  </event>
+
+  <event>
+      <id>67</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:08:08 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:08:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>68</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:08:08 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 18:08:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>69</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:09:24 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 18:09:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>70</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:09:24 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:09:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>71</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:10:11 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:10:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>72</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:10:13 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:10:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>73</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:10:25 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:10:25 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIPc2VhcmNoIExMTQ==</info>
+  </event>
+
+  <event>
+      <id>74</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:14:15 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:14:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>75</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:15:15 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:15:15 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>76</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:16:01 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:16:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMYW5hbHl6ZQ==</info>
+  </event>
+
+  <event>
+      <id>77</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:16:09 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:16:09 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIcYW5hbHl6ZSAxOTIuMTY4LjExNy4xNTU=</info>
+  </event>
+
+  <event>
+      <id>78</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:16:19 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:16:19 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCITc2VhcmNoIGVsYXN0aWM=</info>
+  </event>
+
+  <event>
+      <id>79</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:18:01 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:18:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCItbG9hZCBhdXhpbGlhcnkvZ2F0aGVyL2VsYXN0aWNzZWFyY2hfZW51bQ==</info>
+  </event>
+
+  <event>
+      <id>80</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:18:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:18:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJbG9hZA==</info>
+  </event>
+
+  <event>
+      <id>81</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:18:18 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:18:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJbG9hZA==</info>
+  </event>
+
+  <event>
+      <id>82</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:18:22 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:18:22 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>83</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:19:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:19:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>84</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:19:06 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:19:06 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>85</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:19:41 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:19:41 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbGlzdG0=</info>
+  </event>
+
+  <event>
+      <id>86</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:20:00 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:20:00 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKcHVzaG0=</info>
+  </event>
+
+  <event>
+      <id>87</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:20:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:20:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKbGlzdG0=</info>
+  </event>
+
+  <event>
+      <id>88</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:20:13 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:20:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>89</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:20:47 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:20:47 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCImc2V0IFBBU1NXT1JEPXlmbzYwVmJtbXpwMmNkb050YnZM</info>
+  </event>
+
+  <event>
+      <id>90</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:20:54 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:20:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCImc2V0IFBBU1NXT1JEIHlmbzYwVmJtbXpwMmNkb050YnZM</info>
+  </event>
+
+  <event>
+      <id>91</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:21:11 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:21:11 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIZc2V0IFVTRVJOQU1FIGVsYXN0aWM=</info>
+  </event>
+
+  <event>
+      <id>92</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:21:13 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:21:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJc2F2ZQ==</info>
+  </event>
+
+  <event>
+      <id>93</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:21:19 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:21:19 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>94</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:21:24 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:21:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIBhWxvYWQgUkVBRE1FLm1kICAgICAgICAgbG9hZCBjYXB0dXJlICAgICAgICAgICBsb2FkIGlwc19maWx0ZXIgICAgICAgIGxvYWQgbmV4cG9zZSAgICAgICAgICAgbG9hZCBzZXNzaW9uX25vdGlmaWVyICBsb2FkIHRva2VuX2FkZHVzZXI=</info>
+  </event>
+
+  <event>
+      <id>95</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:21:45 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:21:45 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIjZGJfbm1hcCAtcDU2MDEgMTkyLjE2OC4xMTcuMTE1</info>
+  </event>
+
+  <event>
+      <id>96</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:21:56 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:21:56 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIjZGJfbm1hcCAtcDU2MDEgMTkyLjE2OC4xMTcuMTU1</info>
+  </event>
+
+  <event>
+      <id>97</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:22:08 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:22:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISc2V0IFNTTCBmYWxzZQ==</info>
+  </event>
+
+  <event>
+      <id>98</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:23:00 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:23:00 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIjZGJfbm1hcCAxOTIuMTY4LjExNy4xNTUgLUEgLXAt</info>
+  </event>
+
+  <event>
+      <id>99</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:38:27 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:38:27 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>100</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:38:39 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:38:39 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>101</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:38:55 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:38:55 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIwZGJfbm1hcCAxOTIuMTY4LjExNy4xNTUgLUEgLS10b3AtcG9ydHMgNTAwMA==</info>
+  </event>
+
+  <event>
+      <id>102</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:39:49 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:39:49 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>103</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:40:17 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:40:17 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>104</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:40:33 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:40:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaW5mbw==</info>
+  </event>
+
+  <event>
+      <id>105</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:41:18 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:41:18 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKY2hlY2s=</info>
+  </event>
+
+  <event>
+      <id>106</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:41:25 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:41:25 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJaGVscA==</info>
+  </event>
+
+  <event>
+      <id>107</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:41:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:41:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKY2hlY2s=</info>
+  </event>
+
+  <event>
+      <id>108</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:41:37 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:41:37 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>109</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:41:48 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:41:48 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIfc2V0IFJIT1NUUyAxOTIuMTY4LjExNy4xNTU=</info>
+  </event>
+
+  <event>
+      <id>110</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:41:50 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:41:50 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIMb3B0aW9ucw==</info>
+  </event>
+
+  <event>
+      <id>111</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:42:24 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:42:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>112</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:42:24 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2026-07-12 18:42:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiKGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVtOhBtb2R1bGVfdXVpZEkiDWRicHNhZnY3BjoGRVQ6DmRhdGFzdG9yZXs/Ig1QQVNTV09SRCIZeWZvNjBWYm1tenAyY2RvTnRidkwiDVVTRVJOQU1FIgxlbGFzdGljIghTU0xGIgtSSE9TVFNJIhQxOTIuMTY4LjExNy4xNTUGOwdGIgxWRVJCT1NFVEkiClJQT1JUBjsHRmkC8CNJIhFLcmJDYWNoZU1vZGUGOwdUSSIPcmVhZC13cml0ZQY7B1QiD0hUVFA6OkF1dGgiCWF1dG8iEUtyYkNsb2NrU2tld2YGMCIkSFRUUDo6S3JiT2ZmZXJlZEVuY3J5cHRpb25UeXBlc0kiNUFFUzI1NixBRVMxMjgsUkM0LUhNQUMsREVTLUNCQy1NRDUsREVTMy1DQkMtU0hBMQY7B0YiDlVzZXJBZ2VudCJ7TW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTRfN18yKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTcuNC4xIFNhZmFyaS82MDUuMS4xNSIRSHR0cFVzZXJuYW1lIgAiEUh0dHBQYXNzd29yZCIAIhJEaWdlc3RBdXRoSUlTVCIPU1NMVmVyc2lvbiIJQXV0byIVRmluZ2VycHJpbnRDaGVja1QiC0RPTUFJTiIQV09SS1NUQVRJT04iDkh0dHBUcmFjZVQiGUh0dHBUcmFjZUhlYWRlcnNPbmx5RiIUSHR0cFRyYWNlQ29sb3JzIgxyZWQvYmx1IhpIVFRQOjp1cmlfZW5jb2RlX21vZGUiD2hleC1ub3JtYWwiF0hUVFA6OnVyaV9mdWxsX3VybEYiH0hUVFA6OnBhZF9tZXRob2RfdXJpX2NvdW50aQYiIEhUVFA6OnBhZF91cmlfdmVyc2lvbl9jb3VudGkGIh5IVFRQOjpwYWRfbWV0aG9kX3VyaV90eXBlIgpzcGFjZSIfSFRUUDo6cGFkX3VyaV92ZXJzaW9uX3R5cGUiCnNwYWNlIh5IVFRQOjptZXRob2RfcmFuZG9tX3ZhbGlkRiIgSFRUUDo6bWV0aG9kX3JhbmRvbV9pbnZhbGlkRiIdSFRUUDo6bWV0aG9kX3JhbmRvbV9jYXNlRiIfSFRUUDo6dmVyc2lvbl9yYW5kb21fdmFsaWRGIiFIVFRQOjp2ZXJzaW9uX3JhbmRvbV9pbnZhbGlkRiIhSFRUUDo6dXJpX2Rpcl9zZWxmX3JlZmVyZW5jZUYiIEhUVFA6OnVyaV9kaXJfZmFrZV9yZWxhdGl2ZUYiHkhUVFA6OnVyaV91c2VfYmFja3NsYXNoZXNGIhtIVFRQOjpwYWRfZmFrZV9oZWFkZXJzRiIhSFRUUDo6cGFkX2Zha2VfaGVhZGVyc19jb3VudGkAIhlIVFRQOjpwYWRfZ2V0X3BhcmFtc0YiH0hUVFA6OnBhZF9nZXRfcGFyYW1zX2NvdW50aRUiGkhUVFA6OnBhZF9wb3N0X3BhcmFtc0YiIEhUVFA6OnBhZF9wb3N0X3BhcmFtc19jb3VudGkVIh1IVFRQOjpzaHVmZmxlX2dldF9wYXJhbXNGIh5IVFRQOjpzaHVmZmxlX3Bvc3RfcGFyYW1zRiIXSFRUUDo6dXJpX2Zha2VfZW5kRiIgSFRUUDo6dXJpX2Zha2VfcGFyYW1zX3N0YXJ0RiIZSFRUUDo6aGVhZGVyX2ZvbGRpbmdGIhFET1dOTE9BRFJPV1NpCiIUVU5QQVJTRURfUkhPU1RTIhQxOTIuMTY4LjExNy4xNTUiDlJIT1NUTkFNRTAiClZIT1NUMCIOV09SS1NQQUNFMEkiDFByb3hpZXMGOwdGMCIUSFRUUDo6Umhvc3RuYW1lMCIaRG9tYWluQ29udHJvbGxlclJob3N0MCIVSFRUUDo6S3JiNUNjbmFtZTAiE0h0dHBSYXdIZWFkZXJzMCIWSHR0cENsaWVudFRpbWVvdXQwIhxTU0xTZXJ2ZXJOYW1lSW5kaWNhdGlvbjAiElNTTEtleUxvZ0ZpbGUw</info>
+  </event>
+
+  <event>
+      <id>113</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:42:24 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2026-07-12 18:42:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiKGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVtOhBtb2R1bGVfdXVpZEkiDWRicHNhZnY3BjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>114</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:43:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:43:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJc2F2ZQ==</info>
+  </event>
+
+  <event>
+      <id>115</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:43:04 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 18:43:04 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>116</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 18:43:04 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 18:43:04 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>117</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:08:58 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:08:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>118</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:08:58 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 19:08:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>119</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:08:58 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:08:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>120</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:09:07 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:09:07 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIIcnVu</info>
+  </event>
+
+  <event>
+      <id>121</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:09:07 UTC</created-at>
+      <name>module_run</name>
+      <updated-at>2026-07-12 19:09:07 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7CDoQbW9kdWxlX25hbWUiKGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVtOhBtb2R1bGVfdXVpZEkiDXdqdWNxNHRrBjoGRVQ6DmRhdGFzdG9yZXs/Ig1QQVNTV09SRCIZeWZvNjBWYm1tenAyY2RvTnRidkwiDVVTRVJOQU1FIgxlbGFzdGljIghTU0xGIgtSSE9TVFNJIhQxOTIuMTY4LjExNy4xNTUGOwdGIgxWRVJCT1NFVEkiClJQT1JUBjsHRmkC8CNJIhFLcmJDYWNoZU1vZGUGOwdUSSIPcmVhZC13cml0ZQY7B1QiD0hUVFA6OkF1dGgiCWF1dG8iEUtyYkNsb2NrU2tld2YGMCIkSFRUUDo6S3JiT2ZmZXJlZEVuY3J5cHRpb25UeXBlc0kiNUFFUzI1NixBRVMxMjgsUkM0LUhNQUMsREVTLUNCQy1NRDUsREVTMy1DQkMtU0hBMQY7B0YiDlVzZXJBZ2VudCIBgU1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTMxLjAuMjkwMy44NiIRSHR0cFVzZXJuYW1lIgAiEUh0dHBQYXNzd29yZCIAIhJEaWdlc3RBdXRoSUlTVCIPU1NMVmVyc2lvbiIJQXV0byIVRmluZ2VycHJpbnRDaGVja1QiC0RPTUFJTiIQV09SS1NUQVRJT04iDkh0dHBUcmFjZVQiGUh0dHBUcmFjZUhlYWRlcnNPbmx5RiIUSHR0cFRyYWNlQ29sb3JzIgxyZWQvYmx1IhpIVFRQOjp1cmlfZW5jb2RlX21vZGUiD2hleC1ub3JtYWwiF0hUVFA6OnVyaV9mdWxsX3VybEYiH0hUVFA6OnBhZF9tZXRob2RfdXJpX2NvdW50aQYiIEhUVFA6OnBhZF91cmlfdmVyc2lvbl9jb3VudGkGIh5IVFRQOjpwYWRfbWV0aG9kX3VyaV90eXBlIgpzcGFjZSIfSFRUUDo6cGFkX3VyaV92ZXJzaW9uX3R5cGUiCnNwYWNlIh5IVFRQOjptZXRob2RfcmFuZG9tX3ZhbGlkRiIgSFRUUDo6bWV0aG9kX3JhbmRvbV9pbnZhbGlkRiIdSFRUUDo6bWV0aG9kX3JhbmRvbV9jYXNlRiIfSFRUUDo6dmVyc2lvbl9yYW5kb21fdmFsaWRGIiFIVFRQOjp2ZXJzaW9uX3JhbmRvbV9pbnZhbGlkRiIhSFRUUDo6dXJpX2Rpcl9zZWxmX3JlZmVyZW5jZUYiIEhUVFA6OnVyaV9kaXJfZmFrZV9yZWxhdGl2ZUYiHkhUVFA6OnVyaV91c2VfYmFja3NsYXNoZXNGIhtIVFRQOjpwYWRfZmFrZV9oZWFkZXJzRiIhSFRUUDo6cGFkX2Zha2VfaGVhZGVyc19jb3VudGkAIhlIVFRQOjpwYWRfZ2V0X3BhcmFtc0YiH0hUVFA6OnBhZF9nZXRfcGFyYW1zX2NvdW50aRUiGkhUVFA6OnBhZF9wb3N0X3BhcmFtc0YiIEhUVFA6OnBhZF9wb3N0X3BhcmFtc19jb3VudGkVIh1IVFRQOjpzaHVmZmxlX2dldF9wYXJhbXNGIh5IVFRQOjpzaHVmZmxlX3Bvc3RfcGFyYW1zRiIXSFRUUDo6dXJpX2Zha2VfZW5kRiIgSFRUUDo6dXJpX2Zha2VfcGFyYW1zX3N0YXJ0RiIZSFRUUDo6aGVhZGVyX2ZvbGRpbmdGIhFET1dOTE9BRFJPV1NpCiIUVU5QQVJTRURfUkhPU1RTIhQxOTIuMTY4LjExNy4xNTUiDlJIT1NUTkFNRTAiClZIT1NUMCIOV09SS1NQQUNFMEkiDFByb3hpZXMGOwdGMCIUSFRUUDo6Umhvc3RuYW1lMCIaRG9tYWluQ29udHJvbGxlclJob3N0MCIVSFRUUDo6S3JiNUNjbmFtZTAiE0h0dHBSYXdIZWFkZXJzMCIWSHR0cENsaWVudFRpbWVvdXQwIhxTU0xTZXJ2ZXJOYW1lSW5kaWNhdGlvbjAiElNTTEtleUxvZ0ZpbGUw</info>
+  </event>
+
+  <event>
+      <id>122</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:09:07 UTC</created-at>
+      <name>module_complete</name>
+      <updated-at>2026-07-12 19:09:07 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username>root</username>
+      <info>BAh7BzoQbW9kdWxlX25hbWUiKGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVtOhBtb2R1bGVfdXVpZEkiDXdqdWNxNHRrBjoGRVQ=</info>
+  </event>
+
+  <event>
+      <id>123</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:09:14 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:09:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>124</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:10:08 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:10:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISZWRpdCBob3N0cy5zaA==</info>
+  </event>
+
+  <event>
+      <id>125</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:22:13 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:22:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISZWRpdCBob3N0cy5zaA==</info>
+  </event>
+
+  <event>
+      <id>126</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:22:47 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:22:47 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>127</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:22:49 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:22:49 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>128</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:22:51 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:22:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISZWRpdCBob3N0cy5zaA==</info>
+  </event>
+
+  <event>
+      <id>129</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:41:53 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:41:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCITZWRpdCB+Ly5uZXRyd2M=</info>
+  </event>
+
+  <event>
+      <id>130</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:41:56 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:41:56 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISZWRpdCB+Ly5uZXRyYw==</info>
+  </event>
+
+  <event>
+      <id>131</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:43:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:43:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIdZWRpdCBleGVyY2lzZS0zLjEuNS4xLnNo</info>
+  </event>
+
+  <event>
+      <id>132</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:43:10 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:43:10 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCISZWRpdCBob3N0cy5zaA==</info>
+  </event>
+
+  <event>
+      <id>133</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:45:08 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:45:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>134</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:45:08 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 19:45:08 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>135</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:49:57 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:49:57 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>136</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:49:57 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 19:49:57 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>137</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:49:57 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:49:57 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>138</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:50:01 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:50:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>139</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:54:25 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 19:54:25 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>140</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 19:54:25 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 19:54:25 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>141</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:38:02 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 20:38:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>142</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:38:03 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 20:38:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>143</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:38:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 20:38:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>144</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:38:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 20:38:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIwZGJfbm1hcCAtLW9wZW4gLXNWIC1wLTEwMDAwIDE5Mi4xNjguMTE3LjE1NQ==</info>
+  </event>
+
+  <event>
+      <id>145</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:40:05 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 20:40:05 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCI4ZGJfbm1hcCAtLW9wZW4gLXNWIC1wLTEwMDAwIDE5Mi4xNjguMTE3LjIxLDIyLDI0LDMw</info>
+  </event>
+
+  <event>
+      <id>146</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:40:52 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 20:40:52 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>147</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:43:19 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 20:43:19 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>148</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 20:43:19 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 20:43:19 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>149</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:01:53 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:01:53 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>150</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:01:54 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 21:01:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>151</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:01:54 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:01:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>152</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:01:57 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:01:57 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>153</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:02:01 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:02:01 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>154</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:11:33 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:11:33 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>155</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:12:47 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:12:47 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>156</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:18:24 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:18:24 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>157</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:22:04 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:22:04 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>158</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:22:04 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 21:22:04 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>159</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:23:34 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:23:34 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>160</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:23:35 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 21:23:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>161</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:23:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:23:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>162</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:23:50 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:23:50 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>163</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:27:45 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:27:45 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>164</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:27:45 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 21:27:45 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>165</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:29:57 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:29:57 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>166</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:29:58 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 21:29:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>167</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:29:58 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:29:58 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>168</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:30:02 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:30:02 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>169</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:30:20 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:30:20 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>170</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:30:20 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 21:30:20 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>171</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:41:27 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:41:27 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>172</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:41:28 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 21:41:28 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>173</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:41:28 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:41:28 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>174</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:41:35 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:41:35 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>175</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:41:45 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:41:45 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIZc2VydmljZXMgPj4gaG9zdHMuc2g=</info>
+  </event>
+
+  <event>
+      <id>176</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:41:51 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:41:51 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>177</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:42:26 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 21:42:26 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIJZXhpdA==</info>
+  </event>
+
+  <event>
+      <id>178</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 21:42:26 UTC</created-at>
+      <name>ui_stop</name>
+      <updated-at>2026-07-12 21:42:26 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7AA==</info>
+  </event>
+
+  <event>
+      <id>179</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:31:21 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 22:31:21 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIsdXNlIGF1eGlsaWFyeS9nYXRoZXIvZWxhc3RpY3NlYXJjaF9lbnVt</info>
+  </event>
+
+  <event>
+      <id>180</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:31:21 UTC</created-at>
+      <name>ui_start</name>
+      <updated-at>2026-07-12 22:31:21 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoNcmV2aXNpb24iDyRSZXZpc2lvbiQ=</info>
+  </event>
+
+  <event>
+      <id>181</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:31:22 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 22:31:22 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCILYmFubmVy</info>
+  </event>
+
+  <event>
+      <id>182</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:31:32 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 22:31:32 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>183</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:31:59 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 22:31:59 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIOZGJfZXhwb3J0</info>
+  </event>
+
+  <event>
+      <id>184</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:32:03 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 22:32:03 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIVZGJfZXhwb3J0IC0taGVscA==</info>
+  </event>
+
+  <event>
+      <id>185</id>
+      <workspace-id>1</workspace-id>
+      <host-id/>
+      <created-at>2026-07-12 22:32:19 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2026-07-12 22:32:19 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIfZGJfZXhwb3J0IC1mIHhtbCBob3N0cy54bWw=</info>
+  </event>
+
+</events>
+<services>
+  <service>
+      <id>1</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>14</id>
+      <host-id>4</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>10</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>18</id>
+      <host-id>6</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>filtered</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>16</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 18:39:40 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>6</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>22</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssh</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>OpenSSH 9.2p1 Debian 2+deb12u7 protocol 2.0</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>19</id>
+      <host-id>6</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>53</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>domain</name>
+      <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>7</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>80</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>nginx 1.22.1</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>15</id>
+      <host-id>4</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>5432</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>postgresql</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>PostgreSQL DB 15.15 - 15.16</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>11</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>5432</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>postgresql</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>PostgreSQL DB 15.15 - 15.16</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>2</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>5432</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>postgresql</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>PostgreSQL DB 15.15 - 15.16</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>22</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 20:39:21 UTC</created-at>
+      <port>5601</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:39:21 UTC</updated-at>
+      <info>Elasticsearch Kibana serverName: lab-osai-aim3-155-debian12-elk-siem-247-067</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>20</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 18:21:57 UTC</created-at>
+      <port>5601</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>esmagent</name>
+      <updated-at>2026-07-12 18:21:57 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>24</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>3</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>vcom-tunnel</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>25</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8002</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>4</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8002</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>teradataordbms</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>26</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8003</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>29</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8004</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>30</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8005</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>31</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8006</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>12</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8009</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ajp13</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>37</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8009</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>13</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8010</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>xmpp</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>38</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8010</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>5</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>8011</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name/>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>27</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:47 UTC</created-at>
+      <port>8011</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:47 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>28</id>
+      <host-id>1</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8012</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>32</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8013</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>33</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8014</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>34</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8015</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>39</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8018</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>40</id>
+      <host-id>3</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8019</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>41</id>
+      <host-id>4</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>8030</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Uvicorn</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>23</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 20:39:22 UTC</created-at>
+      <port>8220</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/http</name>
+      <updated-at>2026-07-12 20:39:22 UTC</updated-at>
+      <info>Golang net/http server</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>35</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>9000</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Golang net/http server</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>8</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>9000</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>cslistener</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>36</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 20:40:48 UTC</created-at>
+      <port>9001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2026-07-12 20:40:48 UTC</updated-at>
+      <info>Golang net/http server</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>9</id>
+      <host-id>2</host-id>
+      <created-at>2026-07-12 17:49:45 UTC</created-at>
+      <port>9001</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>tor-orport</name>
+      <updated-at>2026-07-12 17:49:45 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>17</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 17:49:46 UTC</created-at>
+      <port>9200</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>wap-wsp</name>
+      <updated-at>2026-07-12 17:49:46 UTC</updated-at>
+      <info></info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+  <service>
+      <id>21</id>
+      <host-id>5</host-id>
+      <created-at>2026-07-12 18:39:41 UTC</created-at>
+      <port>9200</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/http</name>
+      <updated-at>2026-07-12 18:39:41 UTC</updated-at>
+      <info>Elasticsearch REST API 7.0 or later Shield plugin; realm: security</info>
+      <resource>BAh7AA==</resource>
+  </service>
+
+</services>
+<web_sites>
+</web_sites>
+<web_pages>
+</web_pages>
+<web_forms>
+</web_forms>
+<web_vulns>
+</web_vulns>
+<module_details>
+</module_details>
+</MetasploitV5>
